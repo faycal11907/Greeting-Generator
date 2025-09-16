@@ -37,6 +37,10 @@ input{
     border-radius: 10px;
 }
 
+input:focus{
+    border: 2px #ecc2b0b9 solid;
+}
+
 button{
     border-style: none;
     background-color: #d4ab9ab9;
