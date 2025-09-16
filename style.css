@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+*{
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 300;
+    font-size: 20px;
+    color: #BCAAA4;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    row-gap: 20px;
+    background-image: linear-gradient(to bottom right, #3E2723, #4E342E);
+}
+
+section{
+    background-color: #6D4C41;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 15px;
+}
+
+input{
+    background-color: #8D6E63;
+    border-style: none;
+    border-radius: 10px;
+}
+
+button{
+    border-style: none;
+    background-color: #8D6E63;
+    border-radius: 10px;
+}
+
+span{
+    font-weight: 400;
+    font-size: 23px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #D7CCC8;
+}
